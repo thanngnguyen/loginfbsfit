@@ -1,0 +1,116 @@
+body {
+  background-color: #f2f4f7;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.title {
+  float: left;
+  justify-content: center;
+  padding-right: 50px;
+  margin-top: 200px;
+  /* margin-right: 100px; */
+  font-family: Arial, Helvetica, sans-serif;
+  width: 584px;
+}
+h1 {
+  color: #0866ff;
+  font-size: 80px;
+  padding: 0;
+  margin: 0;
+}
+.connect {
+  font-size: 30px;
+  padding-top: -20px;
+}
+.box-login {
+  float: right;
+  justify-content: center;
+  padding: 10px;
+  /* margin: 50px; */
+  margin-top: 200px;
+  /* margin-right: 100px; */
+  width: 396px;
+  height: 355px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(73, 73, 73, 0.3);
+}
+.email-pass {
+  padding: 0px;
+  padding-top: 10px;
+  margin: 0;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  color: azure;
+  opacity: 30%;
+}
+#email {
+  margin: 0;
+  width: 364px;
+  height: 52px;
+  border: 0.5 solid #dddfe2;
+  border-radius: 6px;
+  font-size: 17px;
+}
+#pass {
+  margin: 0;
+  width: 364px;
+  height: 52px;
+  border: 1 solid #dddfe2;
+  border-radius: 6px;
+  font-size: 17px;
+}
+#button {
+  text-align: center;
+  padding: 0px 16px;
+  margin: 0 auto;
+  display: block;
+  width: 372px;
+  line-height: 48px;
+  font-size: 20px;
+  background-color: #0866ff;
+  color: #ffff;
+  border: none;
+  border-radius: 6px;
+}
+.login {
+  text-align: center;
+  color: #0866ff;
+}
+.login:hover {
+  color: #3578e5;
+}
+.create {
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+#account {
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 15px;
+  border: 0;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto;
+  display: block;
+  background-color: #42b72a;
+  color: #ffff;
+  font-weight: bold;
+}
+#account:hover {
+  background-color: #00a400;
+}
