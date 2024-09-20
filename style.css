@@ -128,6 +128,16 @@ h1 {
 .more {
   display: none;
 }
+input {
+  border-color: #dddfe2;
+  border-style: solid;
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #000000;
+}
 @media (max-width: 1024px) {
   .logomb {
     width: 75px;
